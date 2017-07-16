@@ -1,0 +1,194 @@
+/*
+Theme Name: Alexe Vlad
+Version: 2.0
+Author: Alexe Vlad
+Author URI: http://alexe-vlad.ro
+Description: Website made by Alexe Vlad
+*/
+
+@import url("css/fonts.css");
+
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background:none repeat scroll 0 0 transparent;
+    border:0 none;
+    margin:0;
+    outline:0 none;
+    padding:0;
+    font-family:Arial;
+    font-weight:normal;
+    font-size: 12px;
+    margin-top: 0px;
+}
+* {margin:0;padding:0; outline: 0 none;}
+
+.cf:before,
+.cf:after ,
+.clear:before,
+.clear:after{
+    content:"";
+    display:table;
+}
+.clear,
+.clear:after,
+.cf:after {
+    clear:both;
+}
+body{
+    background: url("images/test.jpg") repeat;
+    text-rendering: optimizeLegibility;
+}
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+p{}
+p strong,
+strong{
+
+}
+p em,
+em{
+
+}
+em strong,
+strong em,
+p em strong,
+p strong em{
+
+}
+a{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+a:hover{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+ul,
+ol{}
+ul li{}
+ol li{}
+ul li a,
+ol li a{}
+blockquote{
+
+}
+input{
+    -webkit-border-radius:0; 
+    -webkit-appearance: none;
+    border-radius:0;
+}
+/*### Menu ###*/
+nav.menu{
+
+}
+nav.menu ul{
+
+}
+nav.menu ul li{
+
+}
+nav.menu ul li a{
+
+}
+nav.menu ul li:hover a{
+
+}
+
+.small_res_menu {
+    position:absolute;
+    z-index:9999;
+    cursor:pointer;
+    border-radius: 5px;
+    display: none;
+    height: 37px;
+    padding: 10px;
+    width: 50px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    right: 2%;
+    top:20px;
+}
+
+.small_res_menu span {
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:2px;
+    margin-bottom:5px;
+    background-color:#808c50;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.small_res_menu.active,
+.small_res_menu:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    background-color:#808c50;
+}
+.small_res_menu.active span ,
+.small_res_menu:hover span {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    background-color:#fff;
+}
+/*### End Menu ###*/
+/*### Header ###*/
+
+.header{}
+.logo{
+    background: url("images/logo.png") no-repeat;
+    display: block;
+}
+/*### End Header ###*/
+
+
+/*### Content ###*/
+
+.content{}
+
+/*### End Content ###*/
+
+
+/*### Footer ###*/
+
+.footer{}
+
+/*### End Footer ###*/
+
+
+/*### RESPONSIVE ###*/
+
+@media only screen and (max-width: 960px) {
+    .small_res_menu{
+        display: block;
+    }
+}
+@media only screen and (max-width: 800px) {}
+@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 720px) {}
+@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 320px) {}
+
+
+/*### END RESPONSIVE ###*/
